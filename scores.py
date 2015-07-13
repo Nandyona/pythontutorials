@@ -8,22 +8,22 @@ def exam_scores():
 
     name=raw_input ('What is you name: ')
 
-    maths_score=input (" Enter your Maths Marks" )
-    Science_score=input ("Enter your Science Marks")
+    maths_score=input ("Enter your Maths Marks" )
+    science_score=input ("Enter your Science Marks")
     english_score= input (" Enter your English marks:")
    
-score=("english marks, maths marks, Science marks":)
-  
+score=[english_score, maths_score, science_score]
+
     for x in score:
         if  x>= 95:
             grade="A"
         elif  x >= 75 and x < 95:
             grade="B"
 
-            x >60 and x <75  
+        elif x >60 and x <75  
             grade="C"
 
-            x>45 and x<60
+        elif x>45 and x<60
             grade="D"
 
           else: 

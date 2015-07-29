@@ -1,0 +1,3 @@
+economics 90
+auditing 98
+financial_mgt 85
